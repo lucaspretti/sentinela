@@ -65,6 +65,8 @@ Issue: (a criar)
 - Crescimento orgânico de seguidores.
 - Cards reusados por gente de fora do projeto.
 - Sobrevivência: nenhum bloqueio de conta no período.
+- Tempo de resposta: intervalo entre um boato aparecer e a checagem sair.
+  Chegar tarde vale como não chegar.
 
 ## 8. Não-objetivos
 
@@ -85,3 +87,28 @@ Issue: (a criar)
 - Escolha do nome/handle do Instagram.
 - Canal de WhatsApp com número dedicado (anonimato do operador).
 - Ingestão da lista de pesquisa (`docs/research/lista-de-ingestao.md`).
+
+## 11. Refinamentos da pesquisa (2026-10-25)
+
+Cada item veio de uma nota do cortex e virou regra do projeto.
+
+1. **Correção substitui, não só nega.** Todo card oferece a explicação
+   alternativa, não apenas o selo de falso. (zettel-2380c5563456)
+2. **Teto realista.** O alvo é reduzir a circulação, não eliminar a produção
+   de mentira. (zettel-54d0119ef2d3)
+3. **Marca de responsabilidade.** Data e fonte assinadas em cada card;
+   identidade de quem opera declarada; seção pública "erramos" para correções.
+   (zettel-42e4b315c2e9, zettel-6665643e4258)
+4. **Regra de verificação no próprio card.** Ensinar como conferir, não só
+   citar a fonte. (zettel-09bc6d6de5b1)
+5. **Distribuição por nós de confiança, não broadcast frio.** Alinhar às
+   organizações de checagem já existentes e aceitar que quem compartilha adapta
+   a mensagem. (zettel-f104821f952e, zettel-3acbff87526c)
+6. **O grupo peer-to-peer vale mais para confiança que o canal de mão única.**
+   (zettel-5f79aff68ee5)
+7. **Tempo é qualidade.** Trilha reativa para rumor em circulação, além da
+   cadência editorial. (zettel-17a30c45738b, zettel-c0fd69923b62)
+8. **Sem alarme de identidade.** Liderar com o fato, sem julgar quem
+   acreditou; o julgamento ativa a defesa do leitor. (zettel-c23d8151b549)
+9. **Nunca exagerar.** O exagero queima a credibilidade, que é o ativo do
+   projeto. (zettel-8db56e296563)
