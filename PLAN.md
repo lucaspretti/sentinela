@@ -1,7 +1,8 @@
 # Sentinela: plano do produto (v4)
 
 Status: direção de produto definida; eficácia e integrações ainda por validar.
-Atualizado em 26/10/2026. Rastreabilidade: [issue #6](https://github.com/lucaspretti/sentinela/issues/6).
+Atualizado em 26/10/2026. Roadmap: [issue #16](https://github.com/lucaspretti/sentinela/issues/16).
+Direção e pesquisa: [issue #6](https://github.com/lucaspretti/sentinela/issues/6).
 Design e fontes: [`docs/design.md`](docs/design.md).
 
 ## Missão
@@ -120,16 +121,94 @@ de fontes e limites em `docs/design.md` antes de fazer alegações de eficácia.
    considerar contaminação entre participantes ao escolher a unidade de comparação.
 7. Só declarar redução quando houver evidência compatível com essa afirmação.
 
-## Pendências
+## Roadmap e backlog executável
 
-- [x] Escolher o primeiro recorte: texto e links sobre alegações brasileiras com
-  fontes documentais (issue #13). Não implica autorização de implementação ou piloto público.
-- [ ] Validar APIs oficiais, formatos de mídia, permissões, rate limits e eventos
-  realmente observáveis em cada canal.
-- [ ] Definir corpus, métricas, retenção de dados e contrato de resposta.
-- [ ] Avaliar contestação, correções e condições de suspensão da automação.
-- [ ] Definir componentes técnicos em issues próprias antes de escrever software.
-- [ ] Confirmar disponibilidade de nomes em etapa separada (issue #9).
+Mapa central: [issue-mãe #16](https://github.com/lucaspretti/sentinela/issues/16).
+[Milestones do repositório](https://github.com/lucaspretti/sentinela/milestones).
+Tickets com Start, Due, Priority e Status no
+[Project Sapix Impulses](https://github.com/users/lucaspretti/projects/2), ligado ao
+repositório. Filtrar pela propriedade Repository para ver apenas o Sentinela.
+
+**Datas são horizontes propostos de revisão, não compromissos de entrega.** O avanço
+é condicionado aos critérios de saída, não ao calendário. Não há estimativas de
+esforço, retorno, economia ou eficácia sem medição.
+
+| Fase | Horizonte de revisão | Critério de saída | Tickets |
+|---|---|---|---|
+| M1: definir e validar o núcleo | 15/12/2026 | Contrato e corpus definidos; orçamento autorizado; núcleo e telemetria avaliados offline, com critérios para avançar | #17, #18, #19, #20, #21, #22, #24 |
+| M2: piloto consentido e impacto | 28/02/2027 | Canal e obrigações verificados; relatório de piloto distingue qualidade, crença, intenção, ação e danos; decisão de continuar, alterar ou interromper | #23, #25 |
+| M3: eficiência e transparência | 31/05/2027 | Reutilização segura e economia medidas sem degradação factual; dados públicos agregados com metodologia e privacidade | #15, #26 |
+| M4: expansão e sustentabilidade | 31/10/2027 | Decisão sobre uma expansão por vez e oportunidades de financiamento verificadas, sem promessa de grants | #27, #28 |
+| Associação, trilha paralela | 28/02/2027 | Documentos, registros e obrigações de operação verificados; sem impedir avaliação offline | #29, com #9 e #10 como sub-issues |
+
+### Tickets para retomar em outras sessões
+
+Dependências estão registradas também nas relações formais `blockedBy` do GitHub.
+`Blocked` no Project indica pré-requisitos pendentes, não impossibilidade técnica.
+Ao fechar um pré-requisito, reconferir dependências e atualizar o Status dos tickets
+liberados. Os detalhes e critérios pertencem à issue; este arquivo é o mapa.
+
+| Ticket | Trabalho | Pré-requisitos |
+|---|---|---|
+| [#17](https://github.com/lucaspretti/sentinela/issues/17) | Contrato de resposta e teste de apresentação | Nenhum; primeiro ticket de produto |
+| [#18](https://github.com/lucaspretti/sentinela/issues/18) | Corpus externo, política de fontes e revisão da evidência | #17 |
+| [#19](https://github.com/lucaspretti/sentinela/issues/19) | Arquitetura mínima, orçamento e modelos; Decision-1 apenas candidato | #17, #18 |
+| [#20](https://github.com/lucaspretti/sentinela/issues/20) | Segurança, privacidade, correções e suspensão | #17, #19 |
+| [#21](https://github.com/lucaspretti/sentinela/issues/21) | Implementar núcleo de texto e links | #17, #18, #19, #20 |
+| [#22](https://github.com/lucaspretti/sentinela/issues/22) | Rastreabilidade, observabilidade e dashboard operacional | #17, #19, #20; desenvolver junto com #21 |
+| [#24](https://github.com/lucaspretti/sentinela/issues/24) | Avaliação offline e critérios para avançar | #18, #20, #21, #22 |
+| [#23](https://github.com/lucaspretti/sentinela/issues/23) | Validar e integrar WhatsApp oficial em teste | #20, #21, #22; verificar viabilidade antes de integrar |
+| [#25](https://github.com/lucaspretti/sentinela/issues/25) | Piloto consentido de impacto | #17, #20, #22, #23, #24, #29; autorização específica do piloto |
+| [#15](https://github.com/lucaspretti/sentinela/issues/15) | Caching e reutilização segura; comparar versão sem cache | #18, #21, #22, #24 |
+| [#26](https://github.com/lucaspretti/sentinela/issues/26) | Página de checagens, identidade e transparência pública | #17, #20, #22, #24; divulgar impacto somente após #25 |
+| [#27](https://github.com/lucaspretti/sentinela/issues/27) | Avaliar vídeos, grupos e novos canais, sem implementar todos | #25 |
+| [#28](https://github.com/lucaspretti/sentinela/issues/28) | Sustentabilidade, grants e parcerias | #19, #29 |
+| [#29](https://github.com/lucaspretti/sentinela/issues/29) | Constituir e habilitar associação | #9, #10 |
+| [#9](https://github.com/lucaspretti/sentinela/issues/9) | Denominação, parqueada até o operador retomá-la | Decisão do operador e consultas verificadas |
+| [#10](https://github.com/lucaspretti/sentinela/issues/10) | Fechar estatutos e campos pendentes | Revisar rascunho; nome final depende de #9 |
+
+### Ordem prática e ritmo
+
+1. Abrir #17 e fechar o contrato; continuar com #18 antes de escolher modelos.
+2. #19 define orçamento e componentes. #20 fecha controles antes da implementação.
+3. #21 e #22 avançam juntos; não adiar instrumentação para depois do protótipo.
+4. #24 mede o núcleo offline. #23 verifica canal oficial e permite teste integrado.
+5. #25 só avança com pré-requisitos, obrigações e autorização do piloto cumpridos.
+6. Caching e transparência entram quando houver resultados a reutilizar e publicar.
+7. Longo prazo é pesquisa e decisão, não promessa de implementar todos os canais.
+
+Em cada sessão, abrir uma issue executável, ler seus critérios e fontes, verificar
+pré-requisitos ao vivo e trabalhar em branch/worktree da issue. Registrar resultados,
+limites e testes no ticket. Atualizar o plano se uma decisão mudar o caminho.
+Uma sessão pode fazer avançar uma issue sem obrigatoriamente concluí-la.
+
+### Riscos e decisões ainda abertas
+
+- Eficácia social: bons resultados offline não garantem menos compartilhamento.
+  #24 e #25 separam as duas perguntas e incluem danos a informação verdadeira.
+- Plataforma: WhatsApp, grupos e comentários dependem de interfaces e termos
+  verificados; #23 e #27 não autorizam contornar limitações.
+- Custo: orçamento e modelos dependem de comparação medida (#19). Benefício
+  Microsoft e cobertura de Decision-1 não estão confirmados (#28).
+- Reutilização: semelhança não prova equivalência; caches precisam de validade,
+  invalidação e medida de erro (#15). Base: *Release It!*, passagem 220, e
+  *vCache: Verified Semantic Prompt Caching*, passagem 7, lidas no cortex.
+- Dados privados: não expor mensagens ou traces como se fossem anônimos (#20/#26).
+- Processo: Status e datas não substituem o estado dos pré-requisitos. Não repetir
+  uma criação ou mutation de GitHub após erro sem ler o recurso, pois pode haver
+  aplicação parcial. Normalização de datas também precisa de read-back.
+
+### Histórico e manutenção
+
+- Direção e medição documentadas nos PRs #12 e #14; recorte aprovado em #13.
+- #2 e #4 eram criação de documentos já entregue, agora fechadas. Revisão de
+  literatura continua em #18, não numa duplicata da criação da lista.
+- #1 foi encerrada como escopo substituído, não como prova de README entregue;
+  identidade/README pendentes foram transferidos para #26.
+- #16 permanece aberta para acompanhar a execução das sub-issues. Concluir a
+  montagem deste roadmap não significa concluir o produto.
+- Os temas de longo prazo serão desdobrados em novos tickets somente depois de
+  escolhida a próxima intervenção, evitando detalhe e prazo fictícios.
 
 ## Referências e estado de leitura
 

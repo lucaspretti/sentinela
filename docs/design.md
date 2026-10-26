@@ -277,17 +277,28 @@ revisão. As referências permanecem para rastrear sua origem:
 8. Liderar com o fato, sem julgar quem acreditou (zettel-c23d8151b549).
 9. Não exagerar conclusões ou resultados (zettel-8db56e296563).
 
-## 12. Próximos passos e limites
+## 12. Roadmap, próximos passos e limites
 
-- Primeiro caso de uso aprovado: texto e links sobre alegações brasileiras com
-  fontes documentais. Próximo: especificar contrato de resposta e corpus de avaliação.
-- Verificar interfaces oficiais e medidas observáveis por canal.
-- Abrir issues próprias para núcleo, ferramentas, corpus, telemetria, dashboard e
-  avaliação; esta issue registra direção e evidência, não implementa os componentes.
-- Definir política de correções, reclamações e suspensão da automação, sem atribuir
-  a modelos a responsabilidade jurídica da associação.
-- Continuar a revisão dos papers, incluindo o contraponto sobre efeitos adversos.
-- Nome jurídico (issue #9) e estatutos (issue #10) seguem em trilhas separadas.
+Mapa central e critérios de saída das fases em `../PLAN.md`, issue-mãe #16.
+Os tickets estão no Project Sapix Impulses e nos milestones do repositório. Datas
+são horizontes de revisão, não promessas de entrega ou resultados.
+
+- Primeiro recorte aprovado: texto e links sobre alegações brasileiras com fontes
+  documentais. Contrato de resposta em #17; corpus, fontes e evidência em #18.
+- Arquitetura, orçamento e comparação de modelos em #19. Microsoft Decision-1 é
+  candidato; disponibilidade, custo e cobertura por benefícios precisam de verificação.
+- Segurança, privacidade, correções e suspensão em #20. Núcleo em #21 e instrumentação
+  em #22, desenvolvidos juntos. Avaliação offline e critérios de avanço em #24.
+- WhatsApp oficial em teste em #23; piloto consentido de impacto em #25. Não
+  confundir avaliação offline com redução comprovada de disseminação.
+- Caching e reutilização em #15: separar fontes/evidências de conclusões; similaridade
+  recupera candidatos, não autoriza resposta. Base lida: *Release It!*, passagem 220,
+  e *vCache: Verified Semantic Prompt Caching*, passagem 7. Medir falsos hits e economia.
+- Página de checagens e transparência pública em #26. Expansão para vídeo, grupos e
+  canais em #27, condicionada ao piloto; financiamento e parcerias em #28.
+- Constituição e habilitação em #29, com nome #9 e estatutos #10 como sub-issues.
+  A trilha jurídica não impede desenvolver e avaliar o núcleo offline.
+- Esta rodada planeja a execução, não implementa software nem apresenta documentos.
 
 Não-objetivos desta revisão: farm de contas, engajamento simulado, postagem real,
 entrada em grupos, deploy, escolha de stack, limiares de sucesso sem referência ou
