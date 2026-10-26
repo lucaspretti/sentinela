@@ -33,7 +33,18 @@ serviço de verificação automatizada baseado em evidências, com diferentes ca
 O carrossel continua como formato possível, não como único produto. A sequência
 antiga de fases de distribuição não é uma decisão atual de prioridade.
 
-## Hipóteses de produto
+## Primeiro recorte aprovado (26/10/2026, issue #13)
+
+Começar pelo núcleo de checagem sob demanda de **texto e links sobre alegações
+brasileiras com fontes documentais**. O recorte torna o piloto avaliável; não limita
+a missão da associação nem comprova eficácia.
+
+WhatsApp é um canal inicial candidato, condicionado à verificação da integração
+oficial. Vídeo, comentários públicos e participação em grupos ficam fora deste
+primeiro piloto. O contrato de resposta, o corpus externo de referência, as métricas,
+os limites operacionais e a autorização do piloto público ainda precisam ser definidos.
+
+## Hipóteses de produto e evolução
 
 1. **Checagem sob demanda no WhatsApp:** receber texto, link, áudio ou vídeo e
    responder sobre alegações específicas, com evidências e referências.
@@ -111,7 +122,8 @@ de fontes e limites em `docs/design.md` antes de fazer alegações de eficácia.
 
 ## Pendências
 
-- [ ] Escolher o primeiro produto a implementar; ordem ainda não aprovada.
+- [x] Escolher o primeiro recorte: texto e links sobre alegações brasileiras com
+  fontes documentais (issue #13). Não implica autorização de implementação ou piloto público.
 - [ ] Validar APIs oficiais, formatos de mídia, permissões, rate limits e eventos
   realmente observáveis em cada canal.
 - [ ] Definir corpus, métricas, retenção de dados e contrato de resposta.
