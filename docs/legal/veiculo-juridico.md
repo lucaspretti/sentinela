@@ -6,7 +6,7 @@ para constituir a entidade que dará suporte ao Sentinela.
 Regra deste documento: **cada afirmação traz a fonte ao lado**, e onde a fonte não foi
 lida diretamente isso está dito. Nada aqui foi inferido de fonte secundária sem marcação.
 
-Estado: procedimento verificado, com uma pendência de valor (a taxa) e nenhuma ação
+Estado: procedimento verificado em fonte oficial, sem pendências de valor, e nenhuma ação
 administrativa iniciada.
 
 ---
@@ -65,12 +65,12 @@ eletrónico (ACCV, no caso do operador) é o instrumento de trabalho.
 LO 1/2002). A inscrição é a los solos efectos de publicidad (art. 10.1): a personalidade
 jurídica nasce com a constituição, não com a inscrição.
 
-**Taxa. 38,89 €**, conceito de inscrição de constituição de associação, Modelo 790.
-**PENDÊNCIA:** este valor foi lido na sessão de 26/10/2026, mas **não foi reconfirmado**
-nesta rodada de verificação, porque a página de taxas do Interior
-(<https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/tasas/asociaciones/>)
-estava sob desafio Cloudflare. As taxas são atualizadas anualmente. **Confirmar no momento
-do pagamento** antes de contar com este número.
+**Taxa. 38,89 €**, conceito "Inscripción de constitución de asociación", Modelo 790.
+Confirmado em 26/10/2026 na página de taxas do Interior
+(<https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/tasas/asociaciones/>).
+Valores vizinhos, para referência: inscrição de modificação de estatutos 19,50 €; constituição
+de federação, confederação ou união 58,36 €; certificações e listados 11,94 €. As taxas são
+atualizadas anualmente, então vale reconfirmar no momento do pagamento.
 
 ---
 
@@ -210,8 +210,8 @@ depósito no registro enquanto não houver declaração de utilidade pública.
 
 ## 7. Pendências e riscos abertos
 
-- **Taxa de constituição não reconfirmada** (página sob Cloudflare). Confirmar antes de
-  orçar.
+- **Taxa de constituição confirmada** em 26/10/2026: 38,89 €. As taxas são atualizadas
+  anualmente; reconfirmar no pagamento.
 - **Registro autonómico da CV** confirmado quanto ao ponto que importava (depósito de contas
   só para DUP) e quanto ao critério territorial. Não se levantaram os prazos e taxas
   próprios da via autonómica, porque a decisão é estatal.
@@ -225,7 +225,7 @@ depósito no registro enquanto não houver declaração de utilidade pública.
 | Fontes oficiais lidas em 26/10/2026 | URL |
 |---|---|
 | Interior, inscrição de constituição | https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/asociaciones/inscripciones-registrales-de-las-asociaciones/inscripcion-de-constitucion-de-asociaciones/ |
-| Interior, taxas de associações (não relida) | https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/tasas/asociaciones/ |
+| Interior, taxas de associações | https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/tasas/asociaciones/ |
 | Interior, rendição de contas (DUP) | https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/asociaciones/utilidad-publica/rendicion-anual-de-cuentas-de-las-asociaciones-de-utilidad-publica/ |
 | Sede do Interior, trâmites de associações | https://sede.interior.gob.es/portal/sede/tramites?idAgrupacion=16 |
 | AEAT, ficha do procedimento G324 (NIF) | https://sede.agenciatributaria.gob.es/Sede/procedimientos/G324.shtml |
