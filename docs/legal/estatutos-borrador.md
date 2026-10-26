@@ -8,9 +8,11 @@
 > para associações de âmbito estatal que peçam inscrição no RNA. Texto-fonte arquivado em
 > `/Volumes/1TB/refs/sentinela-veiculo-juridico/modelos/estatutos-modelo.txt`.
 >
-> Issue que governa este trabalho: #10. Denominação pendente: issue #9.
-> Conteúdo de missão alinhado à correção registrada na issue #6 (desinformação em geral,
-> com a política como recorte de maior impacto, e não como a missão).
+> O Capítulo VI (artigos 29 a 32) é acréscimo nosso, derivado do **European Code of Standards
+> for Independent Fact-Checking Organisations** (EFCSN, `https://efcsn.com/code-of-standards/`,
+> lido em 26/10/2026). Os números de artigo do Código estão citados em cada caso.
+>
+> Issues que governam este trabalho: #10 (estatutos) e #6 (missão). Denominação pendente: #9.
 
 Estado: esboço para revisão. Nada aqui foi assinado nem apresentado.
 
@@ -168,16 +170,15 @@ deberán reunir las personas físicas que actúen en representación de los carg
 personas jurídicas.
 
 Todos los cargos que componen la Junta Directiva serán gratuitos. Éstos serán designados y
-revocados por la Asamblea General y su mandato tendrá una duración de `[NÚMERO DE AÑOS, se
-propone 4]` años.
+revocados por la Asamblea General y su mandato tendrá una duración de cuatro (4) años.
 
 **Artículo 12. Reuniones.**
 
 La Junta Directiva se reunirá cuantas veces lo determine su Presidente/a y a iniciativa o
-petición de `[NÚMERO DE MIEMBROS, se propone la mitad]` de sus miembros. Quedará constituida
-cuando asista la mitad más uno de sus miembros y para que sus acuerdos sean válidos deberán
-ser tomados por mayoría de votos. En caso de empate, el voto del Presidente/a será de calidad.
-Las reuniones podrán ser tanto presenciales como telemáticas.
+petición de **un tercio de sus miembros**. Quedará válidamente constituida cuando asista **la
+mayoría de sus miembros**, y para que sus acuerdos sean válidos deberán ser tomados por
+mayoría de votos. En caso de empate, el voto del Presidente/a será de calidad. Las reuniones
+podrán ser tanto presenciales como telemáticas.
 
 **Artículo 13. Facultades.**
 
@@ -265,8 +266,7 @@ b) De número, que serán los que ingresen después de la constitución de la As
 
 c) De honor, los que por su prestigio o por haber contribuido de modo relevante a la
 dignificación y desarrollo de la Asociación se hagan acreedores a tal distinción. El
-nombramiento de los socios de honor corresponderá a `[LA ASAMBLEA GENERAL, se propone esta
-opción]`.
+nombramiento de los socios de honor corresponderá a la Asamblea General.
 
 **Artículo 22. Baja.**
 
@@ -274,8 +274,9 @@ Los socios/as causarán baja por alguna de las causas siguientes:
 
 a) Por renuncia voluntaria, comunicada por escrito a la Junta Directiva.
 
-b) Por incumplimiento de las obligaciones económicas, si dejara de satisfacer `[NÚMERO DE
-CUOTAS, se propone dos]` cuotas periódicas.
+b) Por incumplimiento de las obligaciones económicas, si dejara de satisfacer dos cuotas
+periódicas, **cuando estas se hayan establecido**. Mientras la Asamblea General no fije
+cuotas, esta causa no será de aplicación.
 
 **Artículo 23. Derechos.**
 
@@ -322,31 +323,94 @@ del artículo 23, pudiendo asistir a las asambleas sin derecho de voto.
 Los recursos económicos previstos para el desarrollo de los fines y actividades de la
 Asociación serán los siguientes:
 
-- Las cuotas de socios/as, periódicas o extraordinarias.
+- Las cuotas de socios/as, periódicas o extraordinarias, cuando la Asamblea General las
+  establezca.
 - Las subvenciones, legados o herencias que pudiera recibir de forma legal por parte de los
   asociados o de terceras personas.
 - Cualquier otro recurso lícito.
 
 **Artículo 27. Patrimonio.**
 
-`[PATRIMONIO INICIAL. El modelo admite declarar que no hay patrimonio al constituirse, que es
-el caso previsto. Redacción propuesta: "La Asociación carece de patrimonio en el momento de su
-constitución."]`
+La Asociación carece de patrimonio en el momento de su constitución.
 
 **Artículo 28. Duración del ejercicio.**
 
-El ejercicio asociativo y económico será anual y su cierre tendrá lugar el `[31 de diciembre]`
-de cada año.
+El ejercicio asociativo y económico será anual y su cierre tendrá lugar el 31 de diciembre de
+cada año.
 
-### CAPÍTULO VI. DISOLUCIÓN
+### CAPÍTULO VI. INDEPENDENCIA, TRANSPARENCIA Y CORRECCIONES
 
-**Artículo 29. Disolución.**
+> Capítulo añadido por nosotros. Deriva del Código Europeo de Normas para Organizações
+> Independentes de Verificação de Fatos (EFCSN), arts. 3.1, 3.3, 4.1 e 4.2. A utilidade
+> prática: tornam estas garantias obrigações sociais, e não apenas boas intenções editoriais,
+> o que é o que um verificador externo audita.
+
+**Artículo 29. Independencia editorial y no partidismo.**
+
+La Asociación desarrollará su actividad de verificación con independencia editorial y sin
+adscripción partidista. En consecuencia:
+
+a) No concluirá acuerdos ni mantendrá vínculos con partidos políticos, ni realizará
+actividades de relaciones públicas o análogas que puedan comprometer su reputación de
+independencia e imparcialidad.
+
+b) Las decisiones sobre qué se verifica, cómo se verifica y qué se publica corresponden
+exclusivamente a los órganos editoriales de la Asociación, y no podrán quedar condicionadas
+por los financiadores, por los socios ni por la Junta Directiva en función de su aportación
+económica.
+
+c) Los conflictos de interés reales o potenciales, propios o de las fuentes y organizaciones
+citadas, se harán constar de forma expresa en las publicaciones.
+
+d) La Asociación sólo defenderá públicamente causas directamente relacionadas con su finalidad
+de verificación y compatibles con su reputación de independencia e imparcialidad.
+
+**Artículo 30. Transparencia económica.**
+
+a) La Asociación publicará y mantendrá actualizada, en un lugar accesible de su sitio web, una
+declaración de sus ingresos anuales totales con indicación de sus principales fuentes de
+financiación, incluidas las aportaciones de plataformas digitales, de financiadores públicos
+nacionales o internacionales y de cualquier otra fuente que pueda suponer un conflicto de
+interés.
+
+b) Publicará asimismo una explicación de los mecanismos establecidos para garantizar su
+independencia editorial y de la naturaleza del trabajo financiado por cada una de esas
+fuentes.
+
+c) El contenido de verificación de la Asociación no podrá ser, en ningún caso, contenido
+patrocinado.
+
+**Artículo 31. Correcciones y reclamaciones.**
+
+a) La Asociación corregirá con prontitud todo error conocido, mediante nota de corrección en
+la misma publicación en que se cometió, y difundirá la corrección en el mismo formato y canal
+cuando la publicación original no sea editable.
+
+b) Mantendrá publicada y accesible una política de correcciones que explique cómo se valoran
+las solicitudes de corrección, y habilitará canales directos para solicitarlas.
+
+c) Cuando el error sea sustancial, la nota de corrección incluirá la información correcta y
+una explicación de las circunstancias que lo permitieron.
+
+d) Cualquier persona afectada por una publicación podrá presentar una reclamación. Si no
+quedara satisfecha con la respuesta interna, la Asociación ofrecerá una revisión
+independiente.
+
+**Artículo 32. Publicidad de los estatutos y de los principios editoriales.**
+
+La Asociación publicará de forma accesible y actualizada sus estatutos, su estructura
+organizativa y quién ejerce el control editorial, así como una declaración de su misión, de
+sus valores y de las directrices internas destinadas a proteger su independencia.
+
+### CAPÍTULO VII. DISOLUCIÓN
+
+**Artículo 33. Disolución.**
 
 La Asociación se disolverá voluntariamente cuando así lo acuerde la Asamblea General
 Extraordinaria, convocada al efecto, con arreglo a lo dispuesto en el artículo 9 de los
 presentes Estatutos.
 
-**Artículo 30. Liquidación y destino del remanente.**
+**Artículo 34. Liquidación y destino del remanente.**
 
 En caso de disolución se nombrará una comisión liquidadora. Una vez extinguidas las deudas, el
 sobrante líquido, en su caso, se destinará para fines que no desvirtúen la naturaleza no
@@ -358,28 +422,73 @@ lucrativa de la Asociación.
 
 ## Decisões e pendências (pt-BR)
 
-**O que falta preencher, e a quem pertence a decisão:**
+### Fechadas nesta rodada
 
-1. **Denominação.** Bloqueio real, e pertence a você. Issue #9 cuida disso, com a verificação
-   no Fichero de Denominaciones do Interior. O nome tem de coincidir exatamente com o da acta
-   fundacional.
-2. **Domicílio social.** Você decide o endereço. Vale saber que ele fica público no registro.
-3. **Duração do mandato** da Junta. Propus 4 anos.
-4. **Número de membros** para convocar a Junta. Propus a metade.
-5. **Sócios de honra.** Propus que nomeie a Assembleia Geral, não a Junta.
-6. **Quotas impagas** que geram baixa. Propus duas.
-7. **Patrimônio inicial.** Proposto declarar que não há, que é o caso.
-8. **Fecho do exercício.** Proposto 31 de dezembro, que alinha o ano associativo ao ano civil
-   e simplifica.
+1. **Duração do mandato da Junta: 4 anos.** Você confirmou.
+2. **Quórum da Junta: corrigido.** O modelo dizia "la mitad más uno de sus miembros", e isso
+   quebra com número ímpar: com 3 membros, metade mais um é 2,5, ou seja, exige os 3, na
+   prática unanimidade. E "a mitad" de 3 não é número inteiro, então nem servia para convocar.
+   Troquei por **maioria dos membros** para constituir (com 3, exige 2) e por **um terço** para
+   convocar. Ambas as fórmulas escalam se a Junta crescer.
+3. **Quotas: mantida a faculdade, sem quota obrigatória.** Você está certo de que, sem quota,
+   "quota impaga" não existe. Em vez de arrancar a quota dos estatutos, deixei a Assembleia com
+   o poder de as fixar (art. 10) e condicionei a causa de baixa: só se aplica "quando estas se
+   hayan establecido". O motivo é econômico: mexer nos estatutos depois custa maioria
+   qualificada, inscrição no registro e taxa (19,50 € pela modificação). Melhor manter a porta
+   aberta agora do que pagar para abri-la depois.
+4. **Patrimônio:** declarado inexistente na constituição.
+5. **Fecho do exercício:** 31 de dezembro.
+6. **Sócios de honra:** nomeia a Assembleia Geral.
 
-**Coisas que ficam de fora dos estatutos de propósito:**
+### Ainda pendentes
 
-- As **regras de honestidade do Sentinela** (nada de persona inventada, uma identidade por
-  plataforma, citação de fonte sempre, correção pública no mesmo canal) são política editorial,
-  e vivem no `docs/design.md`, não nos estatutos. Estatutos não são o lugar de regras de
-  conduta editorial.
-- O **pseudonimato** é do veículo editorial. A associação é uma entidade real, com promotores e
-  Junta nomeados publicamente. São camadas diferentes e precisam permanecer distintas.
+1. **Denominação**, em branco de propósito (issue #9).
+2. **Domicílio social**, que é decisão sua e fica público no registro.
+
+### Sobre o pseudonimato
+
+Você disse que o pseudonimato não é para se esconder, e que quem quiser saber quem está por
+trás, tudo bem. Isso resolve a tensão que eu havia levantado: a associação é entidade real,
+com promotores e Junta no registro, e o pseudônimo é só a voz editorial. Não há contradição
+com as regras de honestidade, porque anónimo sim, pessoa inventada não.
+
+Vale registrar uma coisa que eu conferi e que dá folga: o próprio Código Europeu prevê uma
+exceção (nota final dos arts. 4.1 e 4.2) para quando cumprir a transparência organizativa
+puder expor a organização ou os seus membros a violência política. Nesse caso a informação é
+revelada apenas aos avaliadores externos e ao órgão de governança, e não ao público. Ou seja,
+existe caminho regulado para manter a identidade fora do público em cenário de risco.
+
+### O que o Código Europeu acrescentou, e por quê
+
+Você perguntou se havia material nos livros e papers que valesse incluir. Resposta honesta: o
+nosso acervo é todo sobre **conteúdo** (o que reduz crença em desinformação) e não sobre
+**governança**, então nada dele pertence a um estatuto. Mas existe um corpo de normas que
+pertence, e não estava no acervo: o **Código Europeu de Normas para Organizações Independentes
+de Verificação de Fatos** (EFCSN), que li hoje na fonte. Dele nasceu o Capítulo VI:
+
+- **Não partidarismo e independência editorial** (art. 3.1): proibição de acordos com partidos
+  políticos e de atividades que comprometam a reputação de independência.
+- **Transparência de financiamento** (art. 4.2): publicar os rendimentos anuais e as principais
+  fontes, e explicar os mecanismos que garantem a independência editorial.
+- **Nunca conteúdo patrocinado** dentro da verificação de fatos (art. 4.2 E).
+- **Correções e reclamações** (art. 3.3): corrigir todo erro na mesma publicação, manter política
+  de correções publicada, canal direto e revisão independente quando a resposta interna não
+  satisfizer.
+- **Publicidade dos próprios estatutos** e de quem exerce o controle editorial (art. 4.1).
+
+**A linha que separa estatuto e política editorial, agora que o capítulo existe:** o estatuto
+cria a obrigação e o órgão; a política editorial tem o detalhe operacional (como cada card é
+feito, tom, formato). As regras de conduta card a card continuam no `docs/design.md`.
+
+### Um achado estratégico que muda o cálculo, e não é sobre o estatuto
+
+O Código Europeu só aceita organizações com "substantial and demonstrable focus" em um país
+membro do Conselho da Europa, mais Kosovo, Belarus e Rússia. **O Brasil não está nessa lista.**
+Consequência prática: uma operação com foco exclusivamente brasileiro não entraria no EFCSN,
+mas uma associação espanhola com missão geral contra desinformação entra no radar. Isso reforça
+a correção de missão que você fez na issue #6. E, se o caminho for credenciamento global em vez
+de europeu, o equivalente é o IFCN, do Poynter, que eu **não** li nesta sessão e portanto não
+afirmo nada sobre os critérios dele.
 
 **Próximo passo depois de fechar os campos:** exportar para `.docx` para as assinaturas, e
 montar a acta fundacional sobre o modelo oficial já baixado.
