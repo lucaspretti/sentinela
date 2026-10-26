@@ -42,7 +42,18 @@ a denominação da associação e não estabelece um órgão editorial externo.
    distribuição da correção. Alcance equivalente é objetivo, não dado garantido.
 6. Não chamar concordância entre modelos de prova ou de revisão humana independente.
 
-## 3. Hipóteses de produto, não capacidades confirmadas
+## 3. Recorte inicial e hipóteses de evolução
+
+### Primeiro recorte aprovado (26/10/2026, issue #13)
+
+O primeiro núcleo atenderá **texto e links sobre alegações brasileiras com fontes
+documentais**, sob demanda. Esse limite é do piloto, não da missão. WhatsApp é um
+canal candidato, sujeito à confirmação de viabilidade em interfaces oficiais.
+Vídeo, comentários públicos e participação em grupos ficam para etapas posteriores.
+
+A aprovação deste recorte não define stack, modelos, corpus, limiares de sucesso
+ou formato final de resposta, nem autoriza implantação ou publicação real.
+As capacidades abaixo permanecem hipóteses de evolução, não integrações confirmadas.
 
 ### 3.1. Checagem sob demanda no WhatsApp
 
@@ -268,7 +279,8 @@ revisão. As referências permanecem para rastrear sua origem:
 
 ## 12. Próximos passos e limites
 
-- Escolher primeiro caso de uso e ordem de implementação com o operador.
+- Primeiro caso de uso aprovado: texto e links sobre alegações brasileiras com
+  fontes documentais. Próximo: especificar contrato de resposta e corpus de avaliação.
 - Verificar interfaces oficiais e medidas observáveis por canal.
 - Abrir issues próprias para núcleo, ferramentas, corpus, telemetria, dashboard e
   avaliação; esta issue registra direção e evidência, não implementa os componentes.
