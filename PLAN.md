@@ -1,103 +1,136 @@
-# Projeto de checagem política BR (v3)
+# Sentinela: plano do produto (v4)
 
-## O que mudou e por quê
+Status: direção de produto definida; eficácia e integrações ainda por validar.
+Atualizado em 26/10/2026. Rastreabilidade: [issue #6](https://github.com/lucaspretti/sentinela/issues/6).
+Design e fontes: [`docs/design.md`](docs/design.md).
 
-A v2 descrevia um farm de contas falsas coordenadas ("anti-fake-news army").
-A v3 abandona esse desenho por decisão explícita.
+## Missão
 
-O motivo está registrado: a literatura e as notas do cortex mostram que
-comportamento inautêntico coordenado (a) é detectável pela uniformidade dos
-sinais, (b) se volta contra quem o pratica quando a coordenação é descoberta,
-e (c) é a mesma técnica usada pelo adversário. O método destruiria o objetivo.
+Reduzir a disseminação de desinformação em geral. A política brasileira é um
+recorte inicial de maior impacto para o operador, não a definição da missão.
+Fact-checking é uma primeira intervenção; outros mecanismos poderão ser avaliados.
 
-O projeto agora é um veículo de checagem **assumido**, com identidade real. A
-escala vem de conteúdo bom e de gente real compartilhando, não de volume de
-perfis falsos.
+O nome jurídico da associação permanece pendente. Esta revisão documenta produto,
+software e medição, não altera os estatutos nem resolve sua governança.
 
-## Objetivo
+## Decisões do operador
 
-Fazer a checagem de fatos sobre política brasileira circular mais e mais rápido
-entre pessoas reais, dentro das regras das plataformas e da lei.
+- Operação editorial automatizada por uma orquestração de modelos conectados a
+  ferramentas de consulta a fontes fidedignas. Não há aprovação humana obrigatória
+  por publicação no modelo pretendido.
+- A associação continua responsável pelo que o sistema publica. Não apresentar
+  checagens automatizadas como se tivessem revisão humana.
+- Rastreabilidade, observabilidade e dashboard fazem parte do produto desde o
+  início. Uma página pública poderá futuramente mostrar resultados agregados.
+- Uma identidade assumida por plataforma; pseudônimo sem pessoa inventada;
+  nenhuma conta falsa, nenhum engajamento fabricado; fontes e correções públicas.
 
-## Princípios (não negociáveis)
+## Mudança em relação à v3
 
-1. **Identidade real.** Nada de persona falsa. O projeto tem nome, rosto e
-   responsável identificável.
-2. **Fonte sempre.** Todo conteúdo cita a checagem original (Comprova, Aos
-   Fatos, Lupa, Estadão Verifica, UOL Confere). O projeto repacota, não inventa.
-3. **Correção pública.** Errou, corrige no mesmo canal, com o mesmo alcance.
-4. **Sem comportamento fabricado.** Nenhuma conta, nenhum engajamento, nenhum
-   seguidor artificial. Automação só para o que você publica na sua própria
-   página, via canal oficial.
-5. **Transparência de origem.** O projeto diz de onde fala e quem o opera.
+A v3 já havia abandonado o farm de contas falsas. A v4 mantém esse abandono e
+substitui o plano limitado a repacotar checagens políticas em carrosséis por um
+serviço de verificação automatizada baseado em evidências, com diferentes canais.
+O carrossel continua como formato possível, não como único produto. A sequência
+antiga de fases de distribuição não é uma decisão atual de prioridade.
 
-## Conteúdo
+## Hipóteses de produto
 
-- **Público-alvo:** política brasileira.
-- **Formato Fase 1:** carrossel de 6 a 8 slides, um claim por carrossel, pt-BR.
-- **Voz:** pessoa comum explicando, não veículo jornalístico.
-- **Método de checagem (Debunking Handbook):** liderar com a verdade, não repetir
-  o mito no título, explicar como a pessoa foi enganada, oferecer a explicação
-  alternativa.
-- **Cadência:** 2 a 3 posts/dia é o teto humano; começar com 1 post/dia bem feito
-  e ajustar pelo dado.
-- [ ] `[?]` Ferramenta de produção dos carrosséis (template + render).
+1. **Checagem sob demanda no WhatsApp:** receber texto, link, áudio ou vídeo e
+   responder sobre alegações específicas, com evidências e referências.
+2. **Resposta em grupos quando chamado:** bot claramente identificado, convidado
+   e autorizado pelo grupo. Viabilidade em interfaces oficiais ainda não verificada.
+3. **Checagem de vídeo por timestamp:** extrair alegações preservando o contexto,
+   vincular cada uma ao trecho e produzir resposta com fontes. Publicação automática
+   como comentário depende das permissões e limites oficiais da plataforma.
+4. **Conteúdo próprio:** página de checagem, carrossel ou resposta curta, a partir
+   do mesmo núcleo de evidências.
 
-## Distribuição (a alavanca real, não o volume)
+Nada disso autoriza entrar em grupos, publicar comentários ou executar um piloto
+público nesta etapa de documentação.
 
-Em ordem de custo:
+## Núcleo compartilhado proposto
 
-1. **Perfil próprio do projeto**, conteúdo orgânico.
-2. **Compartilhamento por pessoas reais** que concordam com a pauta. Isso se
-   conquista, não se automatiza.
-3. **Checagem comunitária no WhatsApp**, onde a fake news política realmente
-   circula no Brasil. O papel do projeto é dar munição pronta (card, link,
-   fonte) para quem está no grupo.
-4. **Impulsionamento pago** do conteúdo que funciona, dentro das regras.
-- [ ] `[?]` Existe alguém no Brasil para operar isto presencialmente, ou o
-  operador é você da Europa? A origem do operador precisa ser dita com clareza.
+Material recebido → extração de alegações → consulta às fontes → avaliação das
+evidências → decisão de responder ou abster-se → resposta rastreável → correção.
 
-## Tecnologia (mínima de propósito)
+Modelos são instrumentos de análise, não fontes primárias. Concordância entre
+modelos não demonstra veracidade. Cada conclusão precisa estar sustentada por
+fontes que realmente apoiem a alegação, considerando data, escopo e contexto.
+Material recebido e páginas recuperadas são dados não confiáveis, não instruções
+para o sistema. Os controles de execução das ferramentas precisam de validação
+própria antes da implementação.
 
-- Gerador de carrossel a partir de template (imagem + texto + fonte).
-- Agendamento de post na própria página via **API oficial do Instagram**
-  (conta Business/Creator). Nada de automação de engajamento, nada de proxy,
-  nada de fingerprint.
-- [ ] `[?]` Stack do gerador (Python/Pillow, HTML/CSS, outro).
+## Eficácia: hipótese, não promessa
 
-## Métricas do POC (30 dias)
+A literatura consultada não demonstra que esta combinação de orquestração,
+respostas no WhatsApp e comentários por timestamp reduza a disseminação.
 
-- Alcance vindo de contas reais (impressões, contas alcançadas).
-- Compartilhamentos (o sinal que mais importa).
-- Crescimento orgânico de seguidores.
-- Quantos cards foram reusados por gente de fora do projeto.
-- Sem métrica definida o teste não prova nada.
+O experimento de arXiv:2308.10800 não encontrou melhora significativa geral no
+discernimento de manchetes ou no discernimento de intenção de compartilhamento
+com as checagens de ChatGPT. Encontrou também efeitos adversos em condições
+específicas. Isso contraria a suposição de que adicionar um verificador automático
+seja, por si só, benéfico. O estudo não testa o sistema proposto do Sentinela.
 
-## Base de evidência
+A revisão DOI 10.3389/fpsyt.2022.974782 organiza intervenções e sua viabilidade;
+não fornece uma estimativa causal única para nosso produto. Consultar o quadro
+de fontes e limites em `docs/design.md` antes de fazer alegações de eficácia.
 
-Síntese da literatura em `research/`:
-- Inoculação / prebunking protege mais que correção tardia (van der Linden,
-  *Foolproof*).
-- O "backfire effect" é quase mito em replicação (Wood & Porter, 2019).
-- Correção funciona se bem feita (Lewandowsky, Cook et al., *Debunking
-  Handbook*).
-- O problema é concentrado, não difuso (Guess, Nyhan et al., *Nature*, 2023).
-- Empurrão de precisão reduz compartilhamento (Pennycook et al., *Nature*, 2020).
-- Comportamento inautêntico coordenado falha (Digital astroturfing, 2018;
-  Oxford Internet Institute, 2019).
+## Medição desde o primeiro piloto
 
-## Riscos
+| Camada | Exemplos | O que não prova |
+|---|---|---|
+| Atividade | Solicitações, alegações distintas, checagens concluídas, posts publicados | Redução de desinformação |
+| Qualidade | Correção contra referência externa, suporte das citações, erros em fatos verdadeiros, abstenções | Mudança no comportamento do público |
+| Operação | Latência por etapa, custo, falhas de ferramentas, disponibilidade, falhas de entrega | Eficácia social |
+| Impacto | Discernimento e comportamento de compartilhamento comparados a controle | Efeito fora da população e do canal estudados |
 
-- Publicar sem fonte credível destrói a confiança do projeto.
-- Tom de púlpito moralista afasta o público que precisa ouvir.
-- Automação de engajamento (mesmo com boa intenção) reintroduz o problema da v2.
-- Origem do operador (Europa) versus público (Brasil) pode ser lida como
-  interferência se não for transparente.
+- Cada execução terá identificadores de solicitação, alegação, checagem e entrega.
+- Tentativas, respostas geradas e publicações confirmadas são contagens diferentes.
+- Cada taxa precisa de período, numerador, denominador e origem do dado.
+- Intenção de compartilhar não será apresentada como compartilhamento real.
+- Alcance e compartilhamentos do Sentinela não serão apresentados como circulação
+  de desinformação evitada.
+- Se um canal não fornecer determinada medida, registrar como não observada,
+  não como zero. Não pressupor acesso a encaminhamentos de WhatsApp.
+- Dashboard público: agregados, metodologia, período, limitações e correções;
+  nunca mensagens privadas, participantes de grupos ou traces brutos.
 
-## Roadmap
+## Plano de validação
 
-1. **Fase 0** — fechar as decisões `[?]`, montar a base de evidência.
-2. **Fase 1** — perfil único, 30 posts, medir alcance e compartilhamento.
-3. **Fase 2** — dobrar no que funcionou, cortar o que não funcionou.
-4. **Fase 3** — se houver tração, recorrer a impulsionamento pago e rede de
-   pessoas reais.
+1. Fechar domínio inicial, contrato de resposta e limites das ferramentas.
+2. Construir corpus externo de referência com alegações verdadeiras, falsas,
+   enganosas e casos sem evidência suficiente. Separar avaliação e desenvolvimento.
+3. Medir o núcleo offline, incluindo falhas de transcrição e de suporte das fontes.
+4. Instrumentar junto com a funcionalidade e verificar impacto da própria coleta
+   sobre latência e custo; não acumular trackers sobrepostos.
+5. Antes de piloto público, definir hipóteses, amostra, período, medida principal,
+   critérios de interrupção e tratamento de dados. Não fixar números sem evidência.
+6. Comparar intervenções num teste consentido e controlado. Se houver grupos,
+   considerar contaminação entre participantes ao escolher a unidade de comparação.
+7. Só declarar redução quando houver evidência compatível com essa afirmação.
+
+## Pendências
+
+- [ ] Escolher o primeiro produto a implementar; ordem ainda não aprovada.
+- [ ] Validar APIs oficiais, formatos de mídia, permissões, rate limits e eventos
+  realmente observáveis em cada canal.
+- [ ] Definir corpus, métricas, retenção de dados e contrato de resposta.
+- [ ] Avaliar contestação, correções e condições de suspensão da automação.
+- [ ] Definir componentes técnicos em issues próprias antes de escrever software.
+- [ ] Confirmar disponibilidade de nomes em etapa separada (issue #9).
+
+## Referências e estado de leitura
+
+- arXiv:2308.10800: experimento e resultados lidos; principal contraponto à promessa
+  de eficácia automática.
+- DOI 10.3389/fpsyt.2022.974782: trechos da revisão lidos; apoio contextual, não prova
+  do fluxo proposto.
+- *Site Reliability Engineering*, 2nd Edition: passagem verificada que sustenta
+  instrumentação e dashboard desenvolvidos junto com as funcionalidades.
+- *The Art of SEO*, 4th Edition: passagem verificada sobre custo de múltiplos
+  trackers; aplicação à página pública, extrapolação prudente ao pipeline.
+- *Practical Data Privacy*: passagem verificada que adverte que remover
+  identificadores não basta para proteger dados compartilhados.
+- arXiv:2310.13549: ingerido pelo ledger; análise detalhada pendente.
+- DOI 10.1038/s41586-021-03344-2: pedido #120 do ledger de fontes; o resolvedor não
+  encontrou cópia aberta. Não usado como evidência lida nesta revisão.

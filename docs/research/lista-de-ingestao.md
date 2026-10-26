@@ -13,10 +13,29 @@ Disinformation* (Filipinas), *Social Bots Distort the 2016 Election*,
 Moderation Remedies*, transparência de plataforma, *Wanting* (Burgis), *Nexus*
 (Harari), *Thinking Fast and Slow*, *Attensity!*.
 
-O que falta: (a) a literatura de intervenção, isto é, o que comprovadamente
-reduz a crença; (b) o contexto brasileiro. Estas duas lacunas são o foco abaixo.
+Esta lista é uma demanda de leitura, não comprovação de que os estudos foram
+lidos ou de que a intervenção proposta reduz disseminação. Crença, intenção de
+compartilhar e compartilhamento observado são resultados diferentes.
 
-## Prioridade 1: intervenção (o que funciona)
+## Estado da revisão de intervenção (26/10/2026, issue #6)
+
+| Fonte | Ledger de fontes | Estado e limite |
+|---|---|---|
+| *Fact-checking information from large language models can decrease headline discernment*, arXiv:2308.10800 | #118 | Ingerido; resumo, desenho experimental, efeitos adversos e prompt lidos nas passagens 1, 10, 21 e 39. Contraponto à hipótese de benefício automático. Mede crença e intenção, não circulação real no WhatsApp. |
+| *The Perils & Promises of Fact-checking with Large Language Models*, arXiv:2310.13549 | #119 | Ingerido; análise detalhada pendente. Não usar como validação já lida. |
+| *Shifting attention to accuracy can reduce misinformation online*, DOI 10.1038/s41586-021-03344-2 | #120 | Metadados localizados; o resolvedor não encontrou cópia aberta. Não usado como evidência lida nesta revisão. |
+| *Psychological interventions countering misinformation in social media: A scoping review*, DOI 10.3389/fpsyt.2022.974782 | #121 | Ingerido; passagem 43 lida sobre categorias e viabilidade. Não fornece estimativa causal única para o Sentinela. |
+
+Canais consultados: cortex (interpretações e passagens), catálogo de livros com
+texto armazenado e ledger `sapix sources` com busca OpenAlex. Os pedidos foram
+registrados com justificativa e referência a `lucaspretti/sentinela#6` antes da
+ingestão. Detalhes e posição de cada fonte em `../design.md`, seções 5 e 10.
+
+Não foi verificado um estudo que avalie exatamente a combinação proposta de
+orquestração com ferramentas, chatbot de WhatsApp e comentários por timestamp.
+Uma lacuna de evidência não prova ineficácia; exige testar sem prometer o resultado.
+
+## Prioridade 1: intervenção (o que testar)
 
 ### Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity
 - Autor: Sander van der Linden (2023)
@@ -24,8 +43,8 @@ reduz a crença; (b) o contexto brasileiro. Estas duas lacunas são o foco abaix
 - Por que: é a tese que muda o conteúdo de "desmentir o fato" para "vacinar
   contra a técnica". Card que ensina o truque protege contra a próxima mentira.
 - Onde: livro; material aberto em inoculation.science
-- Extrair: como estruturar um card que expõe a técnica da manipulação; a
-  evidência de que prebunking supera debunking.
+- Extrair: como estruturar um card que expõe a técnica da manipulação; comparar
+  prebunking e debunking por resultado e contexto, sem presumir superioridade geral.
 
 ### The Debunking Handbook
 - Autores: Stephan Lewandowsky, John Cook e outros (2020)
@@ -50,11 +69,15 @@ reduz a crença; (b) o contexto brasileiro. Estas duas lacunas são o foco abaix
   vale a pena. Desfaz o medo de que corrigir piore.
 
 ### Fighting COVID-19 Misinformation on Social Media (accuracy nudge)
-- Autores: Gordon Pennycook, Jonathon McPhetres, Yunhao Zhang, Jackson Lu,
-  David Rand (Nature, 2020)
-- Área: empurrão de precisão
-- Extrair: a mecânica de um aviso simples que reduz o compartilhamento de
-  mentira. Aplicável ao canal e aos grupos.
+- Título completo localizado: *Fighting COVID-19 Misinformation on Social Media:
+  Experimental Evidence for a Scalable Accuracy-Nudge Intervention* (2020).
+- DOI localizado via OpenAlex em 26/10/2026: 10.1177/0956797620939054.
+- A atribuição anterior a Nature foi retirada; não confundir esta referência com
+  o paper de 2021, DOI 10.1038/s41586-021-03344-2, pedido #120 do ledger.
+- Área: empurrão de precisão.
+- Estado: metadados conferidos; resultados não lidos nesta revisão.
+- Extrair: mecanismo, resultados medidos e limites de aplicação a canais e grupos.
+  Não tratar intenção de compartilhamento como redução observada de disseminação.
 
 ### Concentração do consumo de desinformação
 - Autores: Andrew Guess, Brendan Nyhan e outros (2023)
